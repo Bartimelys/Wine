@@ -1,0 +1,25 @@
+.generations{
+    padding-top: 190px;
+    &__overtitle{
+        @include choco-font(24px);
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr{
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+    }
+    &__link{
+        margin-top: 32px;
+        text-align: center;
+        a{
+            @include choco-font(16px);
+            color: $addition-color;
+        }
+    }
+    &__img{
+        text-align: center;
+        margin-top: 37px;
+    }
+}

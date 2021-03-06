@@ -1,0 +1,31 @@
+@import 'base/variables.scss';
+@import 'base/mixins.scss';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: $main-color;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@import 'block/title.scss';
+@import 'block/header.scss';
+@import 'block/generations.scss';
+@import 'block/novelty.scss';
+@import 'block/futured.scss';
+@import 'block/review.scss';
+@import 'block/offer.scss';
+@import 'block/events.scss';
+@import 'block/contact.scss';
+@import 'block/mailing.scss';
+@import 'block/social.scss';
+@import 'block/footer.scss';
+@import 'block/slickElement.scss';

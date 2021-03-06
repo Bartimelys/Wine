@@ -1,0 +1,102 @@
+.futured{
+    padding: 148px 0 167px 0;
+    &__nav{        
+        margin: 0 auto;
+        margin-top: 89px;
+        width: 417px;
+    }
+    &__tabs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__tab{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+            width: 25%;
+            color: #ffffff;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            cursor: pointer;       
+            &:hover{
+                color: $addition-color;
+                border-bottom: 1px solid $addition-color;
+            }
+        }        
+    }
+    &__line{
+        margin-top: 4px;
+        height: 0;
+        padding: 0;
+        border: none;
+        border-top: 1px solid #fff;
+    }
+    &__content{
+        display:none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        &_activ{
+            display: flex;
+        }
+    }
+    &-item{
+        position: relative;
+        margin-top: 89px;
+        width: 25%;
+        height: 432px;
+        text-align: center;
+        &__sale{
+            position: absolute;
+            left: 0;
+            top: 13px;
+            width: 81px;
+            height: 40px;
+            background-color: $addition-color;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 40px;
+            color: #000;
+        }
+        &__img{
+            max-height: 344px;
+        }
+        &__name{
+            margin-top: 21px;
+            @include choco-font(24px);
+        }
+        &__prices{
+            margin-top: 9px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__old-price{
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 32px;
+            color: $addition-color;
+            text-decoration: line-through;
+        }
+        &__price{
+            margin-left: 8px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            color: $addition-color;
+        }
+    }
+    &__more{
+        margin-top: 75px;
+        text-align: center;
+        a{
+            @include choco-font(18px);
+            color: $addition-color;
+            border-bottom: 1 px solid  
+        }              
+    }
+}

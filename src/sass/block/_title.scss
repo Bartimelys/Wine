@@ -1,0 +1,29 @@
+.title{
+    @include choco-font(48px);
+    color: $main-color;
+    text-align: center;
+    span{
+        @include choco-font(48px);
+        color: $addition-color;
+    }
+    &_large{
+        font-size: 96px;
+        span{
+            font-size: 96px;
+        }
+    }
+    &_left{
+        margin-top: 37px;
+        color: $addition-color;
+        text-align: left;
+        font-size: 74px;
+        line-height: 74px;
+    }
+    &_yellow{
+        color: $addition-color;
+    }
+    &__footer{
+        font-size: 24px;
+        color: $addition-color;
+    }
+}

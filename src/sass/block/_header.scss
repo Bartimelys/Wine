@@ -1,0 +1,58 @@
+.header{
+    max-height: 146px;
+    padding-top: 12px;
+    &__menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+    }
+    &__logo{
+        margin-left: 10.3%;
+    }
+    &__nav{
+        width: 390px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        a {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;            
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    .subheader{        
+        margin-top: 13px;
+        &__menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 53px;
+            border-top: 1px solid rgba(255, 255, 255, 0.6);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+            a{
+                @include choco-font(16px);
+                line-height: 9px;
+                text-decoration: none;
+                color: #fff;
+                &:hover{
+                    color: $addition-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}

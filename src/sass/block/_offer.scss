@@ -1,0 +1,30 @@
+.offer{
+    padding: 160px 0 72px 0;
+    &__slider{
+        margin-top: 97px;
+
+    }
+    &__card{
+        position: relative;
+        height: 637px;
+        width: 370px;
+        margin-right: 10px;
+    }
+    img{
+        max-height: 558px;
+        max-width: 370px;
+        height: 100%;
+    }
+    &__nomination{
+        position: absolute;
+        top: 490px;
+        left: 25px;        
+    }
+    &__name{
+        @include choco-font(24px);
+    }
+    &__price{
+        font-size: 36px;
+        font-weight: 700;
+    }
+}

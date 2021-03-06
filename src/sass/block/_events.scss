@@ -1,0 +1,41 @@
+.event{
+    position: relative;
+    padding-top: 77px;
+    &__wrapper{
+        margin-top: 37px;
+        background-color: #18191A;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__img{
+        max-width: 31%;
+    }
+    &__descr{
+        margin-left: 30px;
+    }
+    &__header{
+        margin-top: 63px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &__subheader{
+        margin-top: 8px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &__text{
+        margin-top: 44px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    &__link{
+        margin-top: 48px;
+        a{
+            font-size: 18px;
+            font-weight: 400;
+            color: $addition-color;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+}
